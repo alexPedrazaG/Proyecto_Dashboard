@@ -10,15 +10,19 @@ Este proyecto realiza un análisis exploratorio sobre el registro de los nuevos 
 
 🗂️ **Estructura del Proyecto**
 
-├── data/ # Datos crudos 
-├── results/ # Archivo procesado y el Dashboard asociado
-├── README.md # Descripción del proyecto
+├── data/ # Datos crudos
+
+├── README.md # Descripción del proyecto, url del proyecto realizado en google sheet
+
 
 
 
 🛠️ **Instalación y Requisitos**
 
 En este proyecto solo es necesario poder utilizar Google Sheets 
+Proyecto Dashboard: https://docs.google.com/spreadsheets/d/1CewdhIerDNzyna_TL89zybb9PlMqdhVI8ep8V7gBkoM/edit?usp=sharing
+
+
 
 
 
