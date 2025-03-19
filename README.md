@@ -46,19 +46,29 @@ El gráfico de áreas, muestra la cantidad de vehículos registrados por mes y a
 Para entender la causa de este aumento en septiembre de 2023, se aplicaron filtros por año. Se comprobó que se debió principalmente al incremento en las ventas del Tesla Model Y, un SUV, que en ese año se convirtió en el vehículo más vendido.
 
 El siguiente gráfico, de barras horizontales, muestra las marcas de automóviles con más registros. El Top 3 está compuesto por:
-Tesla – 3,955 registros
-Toyota – 1,187 registros
-Hyundai y Jeep (empate)
+
+🔹Tesla: 3,955 registros
+
+🔹Toyota: 1,187 registros
+
+🔹Hyundai y Jeep: 670 registros
 
 En la parte derecha del dashboard, se presentan dos gráficos de barras:
+
     • El superior muestra los registros por tipo de vehículo, donde los vehículos de pasajeros y los SUV son los más representativos.
+    
     • El inferior refleja los registros según el uso del vehículo, destacando que los coches regulares son los más registrados.
 
 Se han añadido cuatro filtros interactivos:
+
     • Tipo
+    
     • Modelo de vehículo
+    
     • Color
+    
     • Año de vehículo
+    
 Estos filtros permiten identificar tendencias y visualizar patrones que pueden ser clave para la introducción de un nuevo modelo de vehículo eléctrico.
 
 
@@ -81,10 +91,15 @@ Esto sugiere que los consumidores buscan opciones completamente eléctricas o h�
 
 4️⃣ Preferencias de color:
 Los colores más populares entre los vehículos registrados son:
+
 🔹 Blanco
+
 🔹 Gris
+
 🔹 Negro
+
 🔹 Azul
+
 Esto puede ser clave para definir la oferta cromática del nuevo modelo.
 
 
