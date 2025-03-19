@@ -29,9 +29,13 @@ Proyecto Dashboard: https://docs.google.com/spreadsheets/d/1CewdhIerDNzyna_TL89z
 Partimos de un dataset que recoge todos los nuevos vehículos eléctricos registrados. Este dataset contiene más de 50.000 registros, pero se ha reducido a 10.000 registros para optimizar el rendimiento y evitar que el documento se vuelva demasiado lento. Los datos abarcan desde julio de 2021 hasta junio de 2024. El archivo original se obtuvo del siguiente enlace: http://catalog.data.gov/dataset/electric-vehicle-registration-data
 
 Para el análisis, el archivo fue importado a Google Sheet. Tras una primera revisión de los datos, seconvirtió a  una tabla llamada ‘Table_Vehicle’ y se realizaron los siguientes procesos de limpieza de datos:
+
     • Eliminación de duplicados a partir de la columna ‘ID’
+    
     • Sustitución de celdas vacias por el valor ‘Desconocido’ en las columnas ‘Primary Customer City’ y ‘Primary Customer State’
+    
     • Modificación del formato fecha de inglés a español en las columnas ‘Registration Start Date’ y ‘Registration Expiration Date’
+    
 
 Al Analizar los datos, se obserrvó que la mayoría de los 10.000 vehiculos registadros pertenecen al estado de Connecticut con un total de 9861 registros. Esta información se puede visualizar en el gráfico de mapa.
 
