@@ -30,11 +30,13 @@ Partimos de un dataset que recoge todos los nuevos vehículos eléctricos regist
 
 Para el análisis, el archivo fue importado a Google Sheet. Tras una primera revisión de los datos, seconvirtió a  una tabla llamada ‘Table_Vehicle’ y se realizaron los siguientes procesos de limpieza de datos:
 
-    • Eliminación de duplicados a partir de la columna ‘ID’
+🔸 Eliminación de duplicados a partir de la columna ‘ID’
     
-    • Sustitución de celdas vacias por el valor ‘Desconocido’ en las columnas ‘Primary Customer City’ y ‘Primary Customer State’
+🔸 Sustitución de celdas vacias por el valor ‘Desconocido’ en las columnas ‘Primary Customer City’ y ‘Primary Customer State’
     
-    • Modificación del formato fecha de inglés a español en las columnas ‘Registration Start Date’ y ‘Registration Expiration Date’
+🔸 Modificación del formato fecha de inglés a español en las columnas ‘Registration Start Date’ y ‘Registration Expiration Date’
+
+🔸 Se han creado dos columnas nuevas 'Days to Renew' que cálcula los días que faltan para renovar la licencia de circulación y 'Renewal Window' que aplica un rango para saber que las oportunidades de negocio que podemos conseguir.
     
 
 Al Analizar los datos, se obserrvó que la mayoría de los 10.000 vehiculos registadros pertenecen al estado de Connecticut con un total de 9861 registros. Esta información se puede visualizar en el gráfico de mapa.
@@ -47,27 +49,28 @@ Para entender la causa de este aumento en septiembre de 2023, se aplicaron filtr
 
 El siguiente gráfico, de barras horizontales, muestra las marcas de automóviles con más registros. El Top 3 está compuesto por:
 
-🔹Tesla: 3,955 registros
+🔸Tesla: 3,955 registros
 
-🔹Toyota: 1,187 registros
+🔸Toyota: 1,187 registros
 
-🔹Hyundai y Jeep: 670 registros
+🔸Hyundai y Jeep: 670 registros
 
-En la parte derecha del dashboard, se presentan dos gráficos de barras:
 
-    • El superior muestra los registros por tipo de vehículo, donde los vehículos de pasajeros y los SUV son los más representativos.
+En la parte derecha del dashboard, se presentan un gráfico circular y otro gráfico de barras:
+
+🔸 El gráfico circular muestra los registros por rango 'ventana' de renovación del permiso de circulación.
     
-    • El inferior refleja los registros según el uso del vehículo, destacando que los coches regulares son los más registrados.
+🔸 El gráfico de barras muestra los registros por tipo de vehículo, donde los vehículos de pasajeros y los SUV son los más representativos.
 
 Se han añadido cuatro filtros interactivos:
 
-    • Tipo
+🔸 Tipo
     
-    • Modelo de vehículo
+🔸 Modelo de vehículo
     
-    • Color
+🔸 Color
     
-    • Año de vehículo
+🔸 Año de vehículo
     
 Estos filtros permiten identificar tendencias y visualizar patrones que pueden ser clave para la introducción de un nuevo modelo de vehículo eléctrico.
 
@@ -102,14 +105,33 @@ Los colores más populares entre los vehículos registrados son:
 
 Esto puede ser clave para definir la oferta cromática del nuevo modelo.
 
+5️⃣ Segmentación por ventana de renovación ("Renewal Window"):
+
+La variable "Renewal Window" segmenta a los vehículos según el tiempo que falta para su renovación de registro. Esto ayuda a identificar oportunidades de negocio en diferentes momentos:
+
+🔹"Objetivo inmediato": Vehículos con renovación próxima, indicando una oportunidad para captar clientes que podrían estar buscando un reemplazo pronto.
+
+🔹"Oportunidad cercana": Vehículos con renovación en los próximos meses, lo que permite una aproximación gradual.
+
+🔹"Oportunidad futura": Vehículos con renovaciones más lejanas, ideal para estrategias de concienciación a largo plazo.
+
+🔹"Seguimiento a largo plazo": Vehículos con renovaciones más distantes, donde se requiere un seguimiento continuo para mantener la marca presente.
+
+Esta segmentación ayuda a priorizar esfuerzos de marketing y ventas, enfocándose en los vehículos que están cerca de renovar.
 
 
 🔄 **Próximos Pasos**
 
-    • Utilizar todos los datos disponibles para afianzar las conclusiones y resultados.
-    • Explorar el impacto de factores externos, como campañas de marketing, a través de encuestas.
-    • Estar informado sobre las tendencias de incentivos en los estados.
-    • Análisis competitivo entre el tipo de vehículo (de pasajeros y SUV) y la tecnología de propulsión (BEV y PHEV).
+🔺 Utilizar todos los datos disponibles para afianzar las conclusiones y resultados.
+
+🔺 Explorar el impacto de factores externos, como campañas de marketing, a través de encuestas.
+
+🔺 Estar informado sobre las tendencias de incentivos en los estados.
+
+🔺 Análisis competitivo entre el tipo de vehículo (de pasajeros y SUV) y la tecnología de propulsión (BEV y PHEV).
+
+🔺 Monitorear el ciclo de vida del cliente
+
 
 
 
